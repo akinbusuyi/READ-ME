@@ -2,7 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const path = require("path");
-const generateMarkdown = require("./READ-ME/jus/utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 //Creating an array of questions for user input
 const questions = [
